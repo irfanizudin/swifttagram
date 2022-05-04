@@ -17,6 +17,7 @@
 		2E1C9F332822A6F300F69051 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C9F322822A6F300F69051 /* CameraViewController.swift */; };
 		2E1C9F352822A70B00F69051 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C9F342822A70B00F69051 /* NotificationViewController.swift */; };
 		2E1C9F372822A72100F69051 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C9F362822A72100F69051 /* ProfileViewController.swift */; };
+		2E1C9F3A2822AE0E00F69051 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C9F392822AE0E00F69051 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2E1C9F322822A6F300F69051 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		2E1C9F342822A70B00F69051 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		2E1C9F362822A72100F69051 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2E1C9F392822AE0E00F69051 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				2E1C9F182822A43000F69051 /* AppDelegate.swift */,
 				2E1C9F1A2822A43000F69051 /* SceneDelegate.swift */,
+				2E1C9F392822AE0E00F69051 /* Extension.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				2E1C9F372822A72100F69051 /* ProfileViewController.swift in Sources */,
 				2E1C9F192822A43000F69051 /* AppDelegate.swift in Sources */,
 				2E1C9F1B2822A43000F69051 /* SceneDelegate.swift in Sources */,
+				2E1C9F3A2822AE0E00F69051 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
