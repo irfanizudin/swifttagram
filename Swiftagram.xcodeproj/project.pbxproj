@@ -18,6 +18,8 @@
 		2E1C9F352822A70B00F69051 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C9F342822A70B00F69051 /* NotificationViewController.swift */; };
 		2E1C9F372822A72100F69051 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C9F362822A72100F69051 /* ProfileViewController.swift */; };
 		2E1C9F3A2822AE0E00F69051 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C9F392822AE0E00F69051 /* Extension.swift */; };
+		2E1C9F3E2822B5D000F69051 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C9F3D2822B5D000F69051 /* SettingViewController.swift */; };
+		2E75B3D22823F6AD00C4D253 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B3D12823F6AD00C4D253 /* EditProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		2E1C9F342822A70B00F69051 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		2E1C9F362822A72100F69051 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2E1C9F392822AE0E00F69051 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		2E1C9F3D2822B5D000F69051 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		2E75B3D12823F6AD00C4D253 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		2E1C9F2E2822A4FB00F69051 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2E1C9F3B2822B5A700F69051 /* Other */,
 				2E1C9F382822A77400F69051 /* CoreTabs */,
 			);
 			path = Controllers;
@@ -120,6 +125,23 @@
 				2E1C9F362822A72100F69051 /* ProfileViewController.swift */,
 			);
 			path = CoreTabs;
+			sourceTree = "<group>";
+		};
+		2E1C9F3B2822B5A700F69051 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C9F3C2822B5B000F69051 /* General */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2E1C9F3C2822B5B000F69051 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C9F3D2822B5D000F69051 /* SettingViewController.swift */,
+				2E75B3D12823F6AD00C4D253 /* EditProfileViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,8 +220,10 @@
 				2E1C9F352822A70B00F69051 /* NotificationViewController.swift in Sources */,
 				2E1C9F1D2822A43000F69051 /* HomeViewController.swift in Sources */,
 				2E1C9F372822A72100F69051 /* ProfileViewController.swift in Sources */,
+				2E1C9F3E2822B5D000F69051 /* SettingViewController.swift in Sources */,
 				2E1C9F192822A43000F69051 /* AppDelegate.swift in Sources */,
 				2E1C9F1B2822A43000F69051 /* SceneDelegate.swift in Sources */,
+				2E75B3D22823F6AD00C4D253 /* EditProfileViewController.swift in Sources */,
 				2E1C9F3A2822AE0E00F69051 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
