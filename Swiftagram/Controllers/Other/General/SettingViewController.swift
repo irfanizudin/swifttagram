@@ -111,7 +111,13 @@ final class SettingViewController: UIViewController {
 
     
     private func didTapLogOut(){
-        print("Logout")
+        let actionSheet = UIAlertController(title: "Log Out", message: "Are you sure want to log out?", preferredStyle: .actionSheet)
+        actionSheet.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        actionSheet.addAction(UIAlertAction(title: "Log Out", style: .destructive, handler: { _ in
+            print("Logout")
+
+        }))
+        present(actionSheet, animated: true)
     }
     
 }
