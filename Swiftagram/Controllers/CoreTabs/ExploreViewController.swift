@@ -9,9 +9,16 @@ import UIKit
 
 class ExploreViewController: UIViewController {
 
+    private let searchBar: UISearchBar = {
+       let searchBar = UISearchBar()
+        searchBar.backgroundColor = .secondarySystemBackground
+        return searchBar
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = .systemBackground
+        navigationController?.navigationBar.topItem?.titleView = searchBar
         
     }
     
