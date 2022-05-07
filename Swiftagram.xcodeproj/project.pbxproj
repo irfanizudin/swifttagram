@@ -20,6 +20,7 @@
 		2E1C9F3A2822AE0E00F69051 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C9F392822AE0E00F69051 /* Extension.swift */; };
 		2E1C9F3E2822B5D000F69051 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C9F3D2822B5D000F69051 /* SettingViewController.swift */; };
 		2E75B3D22823F6AD00C4D253 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B3D12823F6AD00C4D253 /* EditProfileViewController.swift */; };
+		2EA830F62826B4C3007DF3C3 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA830F52826B4C3007DF3C3 /* FormTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		2E1C9F392822AE0E00F69051 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		2E1C9F3D2822B5D000F69051 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		2E75B3D12823F6AD00C4D253 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		2EA830F52826B4C3007DF3C3 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		2E1C9F2D2822A4F000F69051 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2EA830F42826B49A007DF3C3 /* Cells */,
 				2E1C9F212822A43100F69051 /* Assets.xcassets */,
 				2E1C9F2F2822A57200F69051 /* Storyboards */,
 			);
@@ -142,6 +145,14 @@
 				2E75B3D12823F6AD00C4D253 /* EditProfileViewController.swift */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		2EA830F42826B49A007DF3C3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2EA830F52826B4C3007DF3C3 /* FormTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +230,7 @@
 				2E1C9F332822A6F300F69051 /* CameraViewController.swift in Sources */,
 				2E1C9F352822A70B00F69051 /* NotificationViewController.swift in Sources */,
 				2E1C9F1D2822A43000F69051 /* HomeViewController.swift in Sources */,
+				2EA830F62826B4C3007DF3C3 /* FormTableViewCell.swift in Sources */,
 				2E1C9F372822A72100F69051 /* ProfileViewController.swift in Sources */,
 				2E1C9F3E2822B5D000F69051 /* SettingViewController.swift in Sources */,
 				2E1C9F192822A43000F69051 /* AppDelegate.swift in Sources */,
